@@ -1,0 +1,44 @@
+html,
+body {
+  background-color: #f0f0f0;
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: auto;
+  height: 100%;
+}
+
+.chat-message {
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.chat-message.user {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.chat-message.ai {
+  background-color: #343a40;
+  color: white;
+  align-self: flex-start;
+}
+
+.chat-messages {
+  max-height: 400px; /* or any height you want */
+  overflow-y: auto;
+  padding: 15px;
+  overflow-y: scroll;
+  height: 80vh;
+  margin-bottom: 1rem;
+  border: 1px solid lightblue;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.chatbox {
+  height: 98vh !important;
+}
