@@ -28,17 +28,17 @@ PolyChat is an interactive chat interface similar to ChatGPT that allows users t
     npm install
 ```
 
-3.	Set up environment variables:
+3. Set up environment variables:
 Create a .env file in the root directory with your API keys.
 
 ```bash
-VITE_GROQ_API_KEY=<your-groq-api-key>
+    VITE_GROQ_API_KEY=<your-groq-api-key>
 ```
 
-4.	Run the application:
+4. Run the application:
 
 ```bash
-npm run dev
+    npm run dev
 ```
 
 5. Open your browser and navigate to `http://localhost:5173`.
