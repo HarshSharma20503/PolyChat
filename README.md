@@ -1,6 +1,19 @@
 # PolyChat
 
-PolyChat is an interactive chat interface similar to ChatGPT that allows users to engage with open-source language models such as **Gemma**, **Llama**, and **Mixtral**. The application maintains a context of the last 5 conversations, along with a customizable system prompt for a more tailored interaction.
+PolyChat is an interactive chat interface similar to ChatGPT that allows users to engage with open-source language models such as **Gemma**, **Llama**, and **Mixtral**. The application maintains a context of the last 5 conversations and a customizable system prompt for a more tailored interaction. You can even change to different models and they will also have same context awareness.
+
+## Screenshots
+
+### Normal Prompt and Context Awareness
+![polychat-normal](https://github.com/user-attachments/assets/ec315d3d-eeec-4292-9887-1141fce13112)
+
+
+### Changing Models
+![polychat-model-change](https://github.com/user-attachments/assets/ef250e9a-b6f5-41ba-9945-e951e5ebf21b)
+
+### Coding Prompt
+![polychat-coding](https://github.com/user-attachments/assets/249a49c2-360d-4df4-bd8f-c2ee47a5caba)
+
 
 ## Features
 
@@ -18,27 +31,27 @@ PolyChat is an interactive chat interface similar to ChatGPT that allows users t
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/HarshSharma20503/PolyChat.git
-   cd PolyChat
+git clone https://github.com/HarshSharma20503/PolyChat.git
+cd PolyChat
 ```
 
 2. Install dependencies:
 
 ```bash
-    npm install
+npm install
 ```
 
 3. Set up environment variables:
 Create a .env file in the root directory with your API keys.
 
 ```bash
-    VITE_GROQ_API_KEY=<your-groq-api-key>
+VITE_GROQ_API_KEY=<your-groq-api-key>
 ```
 
 4. Run the application:
 
 ```bash
-    npm run dev
+npm run dev
 ```
 
 5. Open your browser and navigate to `http://localhost:5173`.
