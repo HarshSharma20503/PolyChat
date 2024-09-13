@@ -13,10 +13,6 @@ PolyChat is an interactive chat interface similar to ChatGPT that allows users t
 - **Real-time Loading Animation**: Displays a loading animation while waiting for AI responses.
 - **Model Selection**: Dynamically switch between different models during the conversation.
 
-## Screenshots
-
-![PolyChat UI](./assets/logo.jpeg)
-
 ## Installation
 
 1. Clone the repository:
