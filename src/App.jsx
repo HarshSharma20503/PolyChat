@@ -112,8 +112,8 @@ const App = () => {
   return (
     <Container
       fluid
-      className="bg-dark text-light h-100 d-flex flex-column pb-3 pt-3 "
-      style={{ minHeight: "100vh" }}
+      className=" text-light h-100 d-flex flex-column pb-3 pt-3 "
+      style={{ minHeight: "100vh", backgroundColor: "black" }}
     >
       <div className="h-100 d-flex justify-content-center">
         <div
