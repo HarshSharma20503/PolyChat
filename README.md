@@ -1,8 +1,71 @@
-# React + Vite
+# PolyChat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PolyChat is an interactive chat interface similar to ChatGPT that allows users to engage with open-source language models such as **Gemma**, **Llama**, and **Mixtral**. The application maintains a context of the last 5 conversations, along with a customizable system prompt for a more tailored interaction.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multiple LLM Models**: Interact with open-source models like:
+  - Mixtral-8x7b
+  - Gemma 2
+  - Llama 3.1-70b
+- **Contextual Chat**: Retains the context of the last 5 conversations, improving the flow of interactions.
+- **System Prompt**: A predefined system message that guides the behavior of the LLM models. By default, the system prompt encourages concise and short answers.
+- **Real-time Loading Animation**: Displays a loading animation while waiting for AI responses.
+- **Model Selection**: Dynamically switch between different models during the conversation.
+
+## Screenshots
+
+![PolyChat UI](./assets/logo.jpeg)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/HarshSharma20503/PolyChat.git
+   cd PolyChat
+```
+
+2. Install dependencies:
+
+```bash
+    npm install
+```
+
+3.	Set up environment variables:
+Create a .env file in the root directory with your API keys.
+
+```bash
+VITE_GROQ_API_KEY=<your-groq-api-key>
+```
+
+4.	Run the application:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and navigate to `http://localhost:5173`.
+
+## Usage
+
+- Type your query into the message input box, and press Enter or click Send.
+- The selected model will generate a response based on the prompt and the conversation’s context.
+- You can switch between models using the dropdown selector in the interface.
+
+## Technologies Used
+
+- React: Frontend framework
+- Bootstrap: For styling and layout
+- LangChain: Handling the LLM model interactions
+- Lottie: For animated loading states
+
+## Future Enhancements
+
+- Add more open-source LLM models for a wider variety of interactions.
+- Improve the context management to allow deeper conversation history.
+- Enhance system prompt customization for different user needs.
+
+## Contributing
+
+Feel free to submit issues or contribute to this project by creating pull requests. For major changes, please open an issue to discuss what you’d like to change.
